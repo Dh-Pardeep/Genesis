@@ -4,10 +4,10 @@ import GenesisImg from '../assets/png/Genesis.webp'
 import Para_1 from '../assets/png/MANY YEARS.webp'
 import img_2004 from '../assets/png/img_2004.webp'
 import img_2006 from '../assets/png/img_2006.png'
-import designed_to_decorate from '../assets/png/designed to decorate.webp'
-import pop_art_idea from '../assets/png/pop_art_idea.webp'
-import girl_img_1 from '../assets/png/girl_img_1.webp'
-import girl_img_2 from '../assets/png/girl_img_2.webp'
+import Image1 from '../assets/png/designed to decorate.webp'
+import Image2 from '../assets/png/pop_art_idea.webp'
+import Image3 from '../assets/png/girl_img_1.webp'
+import Image4 from '../assets/png/girl_img_2.webp'
 import Mcmanus from '../assets/png/Mcmanus.webp'
 import img_2007 from '../assets/png/img_2007.webp'
 import three_people_img from '../assets/png/three_people_img.webp'
@@ -52,8 +52,8 @@ const Genesis = () => {
                         </div>
                         <img className='pt-4 ps-2 ms-sm-5 pb-3' src={Para_1} alt="" />
                         <div className='d_grid d-grid'>
-                            <div className='designed_to_decorate ms-5 pt-5 pe-3'>
-                                <img className='w-100 h-100' src={designed_to_decorate} alt="" />
+                            <div className='Image1 ms-5 pt-5 pe-3'>
+                                <img className='w-100 h-100' src={Image1} alt="" />
                             </div>
                             <div className=' img_2004 pt-4 ps-sm-4'>
                                 <img className='w-100' src={img_2004} alt="" />
@@ -61,14 +61,14 @@ const Genesis = () => {
                             <div className=' img_2006 pt-5 mt-3'>
                                 <img className='w-100' src={img_2006} alt="" />
                             </div>
-                            <div className=' pop_art_idea ps-4 pe-4 mt-4'>
-                                <img className='w-100 h-100' src={pop_art_idea} alt="" />
+                            <div className=' Image2 ps-4 pe-4 mt-4'>
+                                <img className='w-100 h-100' src={Image2} alt="" />
                             </div>
-                            <div className='girl_img_1 pt-5'>
-                                <img className='w-100 h-100' src={girl_img_1} alt="" />
+                            <div className='Image3 pt-5'>
+                                <img className='w-100 h-100' src={Image3} alt="" />
                             </div>
-                            <div className='girl_img_2 mx-3 py-5'>
-                                <img className='w-100' src={girl_img_2} alt="" />
+                            <div className='Image4 mx-3 py-5'>
+                                <img className='w-100' src={Image4} alt="" />
                             </div>
                             <div className='Mcmanus mx-4 pe-sm-4 py-5'>
                                 <img className='w-100' src={Mcmanus} alt="" />
