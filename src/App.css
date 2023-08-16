@@ -14,7 +14,9 @@
     padding-right: 12px;
 }
 
-
+body{
+   overflow: hidden;
+}
 .font_sm {
     font-size: 16px;
 }
@@ -145,6 +147,68 @@
 .transform_translateY:hover{
     transform: translateY(-7px);
 }
+.GENESISH1{
+    background: linear-gradient(0deg, #AF5B9A 0.02%, #CDCBCD 3.69%, #FC6FA5 8.32%, #552C4E 15.11%, #B9536C 22.57%, #C768B5 31.58%, #CDCCCD 39.44%, #B35C9E 47.67%, #CB4699 53.71%, #763B69 58.51%, #E172CC 73.58%, #7A3D6E 81.62%, #63233D 90.58%, #CCC8CB 95.52%, #9B5086 100.01%);
+padding: 15px 21px;
+}
+
+.scrollTop {
+    position: fixed;
+    width: 40px;
+    bottom: 20px;
+    padding: 9px;
+    right: 20px;
+    align-items: center;
+    height: 40px !important;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    color: black;
+    background: #F98ABC;
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+}
+
+.scrollTop:hover {
+    background: white;
+    box-shadow: 0px 4px 25px #F98ABC;
+}
+.perloaderback{
+    background-color: #757172;
+}
+.z_index_100{
+    z-index: 100;
+}
+.animation_preloader {
+    animation: loder 4s linear;
+}
+
+@keyframes loder {
+    0% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Image1 {
     grid-row: 1/8;
@@ -563,5 +627,21 @@
     .Image25 {
         grid-column: 1/5;
         grid-row: 33/34;
+    }
+}
+@media (min-width:576px) {
+    .scrollTop {
+        bottom: 30px;
+        width: 45px;
+        right: 30px;
+        height: 45px !important;
+    }
+}
+@media (min-width:768px) {
+    .scrollTop {
+        bottom: 40px;
+        width: 50px;
+        right: 40px;
+        height: 50px !important;
     }
 }

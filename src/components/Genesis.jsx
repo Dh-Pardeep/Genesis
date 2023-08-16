@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import GenesisImg from '../assets/image/png/Genesis.webp'
 import img_2004 from '../assets/image/png/img_2004.webp'
 import img_2006 from '../assets/image/png/img_2006.png'
 import Image1 from '../assets/image/png/Image1.webp'
@@ -18,7 +17,6 @@ import Image10 from '../assets/image/png/Image10.webp'
 import Image11 from '../assets/image/png/Image11.webp'
 import Image12 from '../assets/image/png/Image12.webp'
 import Logo from '../assets/image/png/Logo.webp'
-import Para_2 from '../assets/image/png/Para_2.webp'
 import img_2005 from '../assets/image/png/img_2005.webp'
 import Image13 from '../assets/image/png/Image13.webp'
 import Image14 from '../assets/image/png/Image14.webp'
@@ -45,9 +43,9 @@ const Genesis = () => {
             <div className='overdflow-hidden py-5'>
                 <Container>
                     <Row className='py-md-5 mb_5 CenterLine'>
-                        <Col lg={6} className='pe-0 pb-5'>
+                        <Col lg={6} className='pe-0 pb-5' data-aos="fade-right" data-aos-delay="300">
                             <div className='d-flex align-items-center justify-content-lg-end pt-3'>
-                                <img src={GenesisImg} alt="" />
+                                <h2 className='GENESISH1 ff_Copper_black color_white mb-0 font_xl'>GENESIS</h2>
                             </div>
                             <p className='ff_Fontspring_light pt-4 ps-5 ms-sm-5 font_sm'>MANY YEARS BEFORE LAPiNC</p>
                             <div className='d_grid d-grid'>
@@ -102,7 +100,7 @@ const Genesis = () => {
                             </div>
                         </Col>
 
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left" data-aos-delay="300">
                             <div className='d-flex pt-5 Logo align-items-center justify-content-between pe-5 me-5' >
                                 <img  src={Logo} alt="Logo" />
                                 <p className='ff_Fontspring_light font_sm para_2 text-center'>THIS ARTIST DUO WERE FORMALLY KNOWN AS LVSP</p>
