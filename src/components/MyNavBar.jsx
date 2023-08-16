@@ -12,7 +12,7 @@ const MyNavBar = () => {
   }
   return (
     <header>
-      <div className='my_container'>
+      <div className='mycontainer'>
         <nav className='d-flex align-items-center justify-content-between py-4'>
           <ul className='d-flex gap-3 ps-0 mb-0'>
             <li><a className='d-inline-block' href="https://www.instagram.com/" target='_blank'><Instagram /></a></li>

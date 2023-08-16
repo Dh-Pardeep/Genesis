@@ -41,7 +41,7 @@ import MyNavBar from './MyNavBar'
 
 const Genesis = () => {
     return (
-        <div className='bg_gradient'>
+        <div className='bg_color'>
             <MyNavBar/>
             <div className='overdflow-hidden py-5'>
               <Container>
