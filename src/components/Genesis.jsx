@@ -8,35 +8,35 @@ import Image1 from '../assets/png/designed to decorate.webp'
 import Image2 from '../assets/png/pop_art_idea.webp'
 import Image3 from '../assets/png/girl_img_1.webp'
 import Image4 from '../assets/png/girl_img_2.webp'
-import Mcmanus from '../assets/png/Mcmanus.webp'
+import Image5 from '../assets/png/Mcmanus.webp'
 import img_2007 from '../assets/png/img_2007.webp'
-import three_people_img from '../assets/png/three_people_img.webp'
-import Arts from '../assets/png/Arts.webp'
-import girl_img_3 from '../assets/png/girl_img_3.webp'
-import exhibitions from '../assets/png/exhibitions.webp'
+import Image6 from '../assets/png/three_people_img.webp'
+import Image7 from '../assets/png/Arts.webp'
+import Image8 from '../assets/png/girl_img_3.webp'
+import Image9 from '../assets/png/exhibitions.webp'
 import img_2011_14 from '../assets/png/img_2011-14.webp'
-import girl_img_4 from '../assets/png/girl_img_4.webp'
-import potts_point from '../assets/png/potts_point.webp'
-import Leon_gallery from '../assets/png/Leon_gallery.webp'
+import Image10 from '../assets/png/girl_img_4.webp'
+import Image11 from '../assets/png/potts_point.webp'
+import Image12 from '../assets/png/Leon_gallery.webp'
 import Logo from '../assets/png/L vs p.webp'
 import Para_2 from '../assets/png/THIS ARTIST.webp'
 import img_2005 from '../assets/png/img_2005.webp'
-import girl_img_5 from '../assets/png/girl_img_5.webp'
-import girl_img_6 from '../assets/png/girl_img_6.webp'
-import couple_img from '../assets/png/couple_img.webp'
-import soto_art from '../assets/png/soto_art.webp'
-import Style_news from '../assets/png/Style_news.webp'
+import Image13 from '../assets/png/girl_img_5.webp'
+import Image14 from '../assets/png/girl_img_6.webp'
+import Image15 from '../assets/png/couple_img.webp'
+import Image16 from '../assets/png/soto_art.webp'
+import Image17 from '../assets/png/Style_news.webp'
 import img_2006_1 from '../assets/png/img_2006.webp'
-import girl_img_7 from '../assets/png/girl_img_7.webp'
-import digital_divide from '../assets/png/digital_divide.webp'
-import Leon_krasenstein from '../assets/png/Leon_krasenstein.webp'
-import couple_img_2 from '../assets/png/couple_img_2.webp'
+import Image18 from '../assets/png/girl_img_7.webp'
+import Image19 from '../assets/png/digital_divide.webp'
+import Image20 from '../assets/png/Leon_krasenstein.webp'
+import Image21 from '../assets/png/couple_img_2.webp'
 import img_2008 from '../assets/png/img_2008.webp'
 import img_2010 from '../assets/png/img_2010.webp'
-import couple_img_3 from '../assets/png/couple_img_3.webp'
-import girl_img_8 from '../assets/png/girl_img_8.webp'
-import girl_img_9 from '../assets/png/girl_img_9.webp'
-import drawing_a_crowd from '../assets/png/drawing_a_crowd.webp'
+import Image22 from '../assets/png/couple_img_3.webp'
+import Image23 from '../assets/png/girl_img_8.webp'
+import Image24 from '../assets/png/girl_img_9.webp'
+import Image25 from '../assets/png/drawing_a_crowd.webp'
 import MyNavBar from './MyNavBar'
 
 const Genesis = () => {
@@ -70,35 +70,35 @@ const Genesis = () => {
                             <div className='Image4 mx-3 py-5'>
                                 <img className='w-100' src={Image4} alt="" />
                             </div>
-                            <div className='Mcmanus mx-4 pe-sm-4 py-5'>
-                                <img className='w-100' src={Mcmanus} alt="" />
+                            <div className='Image5 mx-4 pe-sm-4 py-5'>
+                                <img className='w-100' src={Image5} alt="" />
                             </div>
                             <div className='img_2007'>
                                 <img className='w-100' src={img_2007} alt="" />
                             </div>
-                            <div className='three_people_img  ms-5 pe-3 py-5'>
-                                <img className='w-100' src={three_people_img} alt="" />
+                            <div className='Image6  ms-5 pe-3 py-5'>
+                                <img className='w-100' src={Image6} alt="" />
                             </div>
-                            <div className='Arts pe-sm-5 pb-5 pb-sm-0 mx-5'>
-                                <img className='w-100' src={Arts} alt="" />
+                            <div className='Image7 pe-sm-5 pb-5 pb-sm-0 mx-5'>
+                                <img className='w-100' src={Image7} alt="" />
                             </div>
-                            <div className='girl_img_3 pe-sm-5 pe-3'>
-                                <img className='w-100 h-100' src={girl_img_3} alt="" />
+                            <div className='Image8 pe-sm-5 pe-3'>
+                                <img className='w-100 h-100' src={Image8} alt="" />
                             </div>
-                            <div className='exhibitions pt-sm-5 mt-5 pe-4 ps-sm-5 ms-sm-5'>
-                                <img className='w-100 h-100' src={exhibitions} alt="" />
+                            <div className='Image9 pt-sm-5 mt-5 pe-4 ps-sm-5 ms-sm-5'>
+                                <img className='w-100 h-100' src={Image9} alt="" />
                             </div>
                             <div className='img_2011-14 pt-5 pb-sm-5 pe-5 pe-sm-0 ps-sm-5 ms-sm-5'>
                                 <img className='w-100 h-100' src={img_2011_14} alt="" />
                             </div>
-                            <div className='girl_img_4 py-4 ps-sm-5 pe-2 pe-sm-0'>
-                                <img className='w-100 h-100' src={girl_img_4} alt="" />
+                            <div className='Image10 py-4 ps-sm-5 pe-2 pe-sm-0'>
+                                <img className='w-100 h-100' src={Image10} alt="" />
                             </div>
-                            <div className='potts_point py-5  mt_5 pe-4 ps-4'>
-                                <img className='w-100' src={potts_point} alt="" />
+                            <div className='Image11 py-5  mt_5 pe-4 ps-4'>
+                                <img className='w-100' src={Image11} alt="" />
                             </div>
-                            <div className='Leon_gallery ps-sm-5 pe-2 pe-sm-0'>
-                                <img className='w-100 h-100' src={Leon_gallery} alt="" />
+                            <div className='Image12 ps-sm-5 pe-2 pe-sm-0'>
+                                <img className='w-100 h-100' src={Image12} alt="" />
                             </div>
                         </div>
                     </Col>
@@ -111,53 +111,53 @@ const Genesis = () => {
                             <div className='img_2005 mx-sm-3 pt-5'>
                                 <img className='w-100' src={img_2005} alt="" />
                             </div>
-                            <div className='girl_img_5 ms-sm-2 pt-5 pt-sm-0 pe-3 pe-sm-0'>
-                                <img className='w-100 h-100' src={girl_img_5} alt="" />
+                            <div className='Image13 ms-sm-2 pt-5 pt-sm-0 pe-3 pe-sm-0'>
+                                <img className='w-100 h-100' src={Image13} alt="" />
                             </div>
-                            <div className='girl_img_6 ms-sm-5 pe-3 pe-sm-5 pt-sm-2 pt-5'>
-                                <img className='w-100' src={girl_img_6} alt="" />
+                            <div className='Image14 ms-sm-5 pe-3 pe-sm-5 pt-sm-2 pt-5'>
+                                <img className='w-100' src={Image14} alt="" />
                             </div>
-                            <div className='couple_img ms-sm-4 pe-3 pt-5'>
-                                <img className='w-100 h-100' src={couple_img} alt="" />
+                            <div className='Image15 ms-sm-4 pe-3 pt-5'>
+                                <img className='w-100 h-100' src={Image15} alt="" />
                             </div>
-                            <div className='soto_art ms-sm-4 pe-3 ps-1 pt-5'>
-                                <img className='w-100 h-100' src={soto_art} alt="" />
+                            <div className='Image16 ms-sm-4 pe-3 ps-1 pt-5'>
+                                <img className='w-100 h-100' src={Image16} alt="" />
                             </div>
-                            <div className='Style_news ms-sm-4 pt-5 pe-3'>
-                                <img className='w-100 h-100' src={Style_news} alt="" />
+                            <div className='Image17 ms-sm-4 pt-5 pe-3'>
+                                <img className='w-100 h-100' src={Image17} alt="" />
                             </div>
                             <div className='img_2006_1 ms-sm-3 pe-5 pe-sm-0 pt-5'>
                                 <img className='w-100' src={img_2006_1} alt="" />
                             </div>
-                            <div className='girl_img_7 pt-sm-0 pt-5 mx-sm-5 pe-sm-5 pe-3'>
-                                <img className='w-100' src={girl_img_7} alt="" />
+                            <div className='Image18 pt-sm-0 pt-5 mx-sm-5 pe-sm-5 pe-3'>
+                                <img className='w-100' src={Image18} alt="" />
                             </div>
-                            <div className='digital_divide ps-sm-5 ms-sm-5 mt-4 pe-sm-2 pe-3'>
-                                <img className='w-100 h-100' src={digital_divide} alt="" />
+                            <div className='Image19 ps-sm-5 ms-sm-5 mt-4 pe-sm-2 pe-3'>
+                                <img className='w-100 h-100' src={Image19} alt="" />
                             </div>
-                            <div className='Leon_krasenstein pt-5 mx-sm-5 pe-3 pe-sm-0'>
-                                <img className='w-100 h-100' src={Leon_krasenstein} alt="" />
+                            <div className='Image20 pt-5 mx-sm-5 pe-3 pe-sm-0'>
+                                <img className='w-100 h-100' src={Image20} alt="" />
                             </div>
-                            <div className='couple_img_2 pe-3 pe-sm-0 pt-5 ms-sm-5 ps-sm-4'>
-                                <img className='w-100 h-100' src={couple_img_2} alt="" />
+                            <div className='Image21 pe-3 pe-sm-0 pt-5 ms-sm-5 ps-sm-4'>
+                                <img className='w-100 h-100' src={Image21} alt="" />
                             </div>
                             <div className='img_2008 pt-5 mx-sm-3 pb-4 pe-5 pe-sm-0 pb-sm-0'>
                                 <img className='w-100 h-100' src={img_2008} alt="" />
                             </div>
-                            <div className='couple_img_3 pt-4 pb-4 pe-3 pe-sm-0 pb-sm-0'>
-                                <img className='w-100 h-100' src={couple_img_3} alt="" />
+                            <div className='Image22 pt-4 pb-4 pe-3 pe-sm-0 pb-sm-0'>
+                                <img className='w-100 h-100' src={Image22} alt="" />
                             </div>
                             <div className='img_2010 pt-4 mx-sm-3 pe-5 pe-sm-0 pb-4'>
                                 <img className='w-100 h-100' src={img_2010} alt="" />
                             </div>
-                            <div className='girl_img_8 pt-5 ms-sm-5 pe-3'>
-                                <img className='w-100 h-100' src={girl_img_8} alt="" />
+                            <div className='Image23 pt-5 ms-sm-5 pe-3'>
+                                <img className='w-100 h-100' src={Image23} alt="" />
                             </div>
-                            <div className='girl_img_9 pe-3 pe-sm-0'>
-                                <img className='w-100 h-100 mt-5' src={girl_img_9} alt="" />
+                            <div className='Image24 pe-3 pe-sm-0'>
+                                <img className='w-100 h-100 mt-5' src={Image24} alt="" />
                             </div>
-                            <div className='drawing_a_crowd pt-sm-4 pt-5 mt-5 mt-sm-0 ms-sm-5 pe-3'>
-                                <img className='w-100 h-100' src={drawing_a_crowd} alt="" />
+                            <div className='Image25 pt-sm-4 pt-5 mt-5 mt-sm-0 ms-sm-5 pe-3'>
+                                <img className='w-100 h-100' src={Image25} alt="" />
                             </div>
                         </div>
                     </Col>
