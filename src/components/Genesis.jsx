@@ -101,9 +101,9 @@ const Genesis = () => {
                         </Col>
 
                         <Col lg={6} data-aos="fade-left" data-aos-delay="300">
-                            <div className='d-flex pt-5 Logo align-items-center justify-content-between pe-5 me-5' >
+                            <div className='d-flex pt-5 Logo flex-column flex-lg-row  align-items-center justify-content-between pe-sm-5 me-sm-5' >
                                 <img  src={Logo} alt="Logo" />
-                                <p className='ff_Fontspring_light font_sm para_2 text-center'>THIS ARTIST DUO WERE FORMALLY KNOWN AS LVSP</p>
+                                <p className='ff_Fontspring_light font_sm para_2 text-center mt-4 mt-lg-0'>THIS ARTIST DUO WERE FORMALLY KNOWN AS LVSP</p>
                             </div>
                             <div className='d-grid d_grid'>
                                 <div className='img_2005 mx-sm-3 pt-5'>

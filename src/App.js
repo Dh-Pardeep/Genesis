@@ -15,7 +15,8 @@ function App() {
     }, []);
   return (
     <>
-      <BackToTop />
+     <div className='overflow-hidden'>
+     <BackToTop />
       <MyPreloader />
       <React.Fragment>
         <Routes>
@@ -23,6 +24,7 @@ function App() {
           <Route path='/Genesis' element={<Genesis />} />
         </Routes>
       </React.Fragment>
+     </div>
     </>
   );
 }
