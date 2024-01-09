@@ -40,8 +40,8 @@ const Genesis = () => {
     return (
         <div className='bg_color'>
             <MyNavBar />
-            <div className='overdflow-hidden py-5'>
-                <Container>
+            <div className='overdflow-hidden py-5 '>
+                <Container className='mb-5 pb-5'>
                     <Row className='py-md-5 mb_5 CenterLine'>
                         <Col lg={6} className='pe-0 pb-5' data-aos="fade-right" data-aos-delay="300">
                             <div className='d-flex align-items-center justify-content-lg-end pt-3'>
